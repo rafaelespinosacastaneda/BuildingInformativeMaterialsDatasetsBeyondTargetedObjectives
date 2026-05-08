@@ -33,4 +33,36 @@ The `ExperimentalDatasetConstruction` folder contains the code used for the expe
     │   └── uncertainty_Thermo.py
     │
     └── ResultsAnalysis
-        └── ImprovementThermoElectricData.ipynb
+        └── ImprovementThermoElectricData.ipynb 
+```
+
+## ExperimentalDatasetConstruction
+
+The `ExperimentalDatasetConstruction` folder contains the code used to reproduce the experimental dataset construction experiments using the **sysTEm** dataset as the candidate pool.
+
+This folder contains three subfolders:
+
+- `systemDataCuration`
+- `ActiveLearningDatasetConstruction`
+- `ResultsAnalysis`
+
+---
+
+### 1. `systemDataCuration`
+
+The `systemDataCuration` folder contains the code and raw data used to curate and featurize the sysTEm dataset.
+
+#### `DataCuration_sysTEmDataset.ipynb`
+
+This notebook featurizes the chemical compositions in `sysTEm_dataset.xlsx` and curates the dataset.
+
+Before running the notebook, make sure that:
+
+1. The sysTEm dataset has been downloaded.
+2. The local file path to `sysTEm_dataset.xlsx` is correctly specified in the notebook.
+
+The notebook outputs a curated CSV file named:
+
+```text
+CLEANED_DATA.csv
+```
