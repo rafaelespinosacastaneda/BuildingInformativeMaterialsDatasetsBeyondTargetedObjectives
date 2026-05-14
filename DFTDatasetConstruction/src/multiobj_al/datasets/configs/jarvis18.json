@@ -1,0 +1,45 @@
+{
+  "name": "jarvis18",
+  "source": {
+    "type": "url",
+    "path": "https://zenodo.org/records/12763938/files/jarvis18_featurized_matminer.json.gz?download=1",
+    "format": "json",
+    "compression": "gzip"
+  },
+  "target_columns": [
+    "e_form",
+    "bulk_modulus",
+    "bandgap"
+  ],
+  "feature_columns": {
+    "type": "last_n",
+    "n": 273
+  },
+  "id_column": "reference",
+  "formula_column": "formula",
+  "preprocessing": {
+    "drop_na_targets": true,
+    "drop_failed_structures": true,
+    "structural_feature_range": [
+      -273,
+      -145
+    ],
+    "filters": [
+      {
+        "column": "e_form",
+        "max": 5.0
+      },
+      {
+        "column": "bulk_modulus",
+        "min": 0.0
+      }
+    ],
+    "column_renames": {}
+  },
+  "alignn": {
+    "enabled": false,
+    "pickle_pattern": "alldataRAW_jarvis18_ALIGNN.pkl",
+    "jarvis_api_name": "dft_3d",
+    "id_column_in_pickle": "reference"
+  }
+}

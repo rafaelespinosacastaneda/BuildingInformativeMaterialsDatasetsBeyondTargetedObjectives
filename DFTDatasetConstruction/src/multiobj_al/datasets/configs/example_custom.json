@@ -1,0 +1,37 @@
+{
+  "name": "example_custom",
+  "source": {
+    "type": "local",
+    "path": "/path/to/your/data.csv",
+    "format": "csv"
+  },
+  "target_columns": [
+    "property1",
+    "property2"
+  ],
+  "feature_columns": {
+    "type": "explicit",
+    "columns": [
+      "feature1",
+      "feature2",
+      "feature3"
+    ]
+  },
+  "id_column": "material_id",
+  "formula_column": "formula",
+  "preprocessing": {
+    "drop_na_targets": true,
+    "drop_failed_structures": false,
+    "filters": [
+      {
+        "column": "property1",
+        "min": 0,
+        "max": 100
+      }
+    ],
+    "column_renames": {}
+  },
+  "alignn": {
+    "enabled": false
+  }
+}
