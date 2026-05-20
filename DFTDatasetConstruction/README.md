@@ -1,5 +1,5 @@
 # Multi Objective Active Learning Study
-Repository for multiobjective AL study; code from Raphael Espinosa Castañeda
+Repository for multiobjective AL study; code from Rafael Espinosa Castañeda
 
 ## Installation
 
