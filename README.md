@@ -40,8 +40,3 @@ The `ExperimentalDatasetConstruction` folder contains the code used for the expe
 ```
 
 
-For example:
-
-```python
-ROOT = "path/to/ExperimentalDatasetConstruction/ActiveLearningDatasetConstruction/al"
-```
