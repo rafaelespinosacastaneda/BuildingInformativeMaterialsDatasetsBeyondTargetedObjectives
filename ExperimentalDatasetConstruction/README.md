@@ -1,5 +1,5 @@
 
-## ExperimentalDatasetConstruction
+# ExperimentalDatasetConstruction
 
 The `ExperimentalDatasetConstruction` folder contains the code used to reproduce the experimental dataset construction experiments using the **sysTEm** dataset as the candidate pool.
 
@@ -11,11 +11,11 @@ This folder contains three subfolders:
 
 ---
 
-### 1. `systemDataCuration`
+## 1. `systemDataCuration`
 
 The `systemDataCuration` folder contains the code and raw data used to curate and featurize the sysTEm dataset.
 
-#### `DataCuration_sysTEmDataset.ipynb`
+### `DataCuration_sysTEmDataset.ipynb`
 
 This notebook featurizes the chemical compositions in `sysTEm_dataset.xlsx` and curates the dataset.
 
@@ -32,7 +32,7 @@ CLEANED_DATA.csv
 
 This file is used as the candidate pool for the active-learning dataset construction experiments.
 
-#### `sysTEm_dataset.xlsx`
+### `sysTEm_dataset.xlsx`
 
 This is the original raw sysTEm dataset.
 
@@ -50,11 +50,11 @@ Dataset DOI:
 
 ---
 
-### 2. `ActiveLearningDatasetConstruction`
+## 2. `ActiveLearningDatasetConstruction`
 
 The `ActiveLearningDatasetConstruction` folder contains the scripts used to run the active-learning dataset construction experiments.
 
-#### `run_al_thermo.bash`
+### `run_al_thermo.bash`
 
 This Bash script sequentially runs all random seeds and dataset construction strategies by calling `run_all_thermo.py`.
 
@@ -64,7 +64,7 @@ To run this script, open a terminal in the `ExperimentalDatasetConstruction` fol
 bash run_al_thermo.bash
 ```
 
-#### `run_all_thermo.py`
+### `run_all_thermo.py`
 
 This is the main script for running one dataset construction experiment with one random seed.
 
@@ -92,7 +92,7 @@ al
 
 Inside the `al` folder, results are organized into subfolders according to the dataset construction policy used.
 
-#### `uncertainty_Thermo.py`
+### `uncertainty_Thermo.py`
 
 This Python module contains the different dataset construction policies used in the active-learning experiments.
 
@@ -105,11 +105,11 @@ These policies include:
 
 ---
 
-### 3. `ResultsAnalysis`
+## 3. `ResultsAnalysis`
 
 The `ResultsAnalysis` folder contains the notebooks used to analyze the active-learning results.
 
-#### `ImprovementThermoElectricData.ipynb`
+### `ImprovementThermoElectricData.ipynb`
 
 This notebook plots the improvement of each dataset construction policy relative to random sampling.
 
