@@ -13,6 +13,7 @@ The `DFTDatasetConstruction` folder contains the code used for the DFT dataset c
 
 The `ExperimentalDatasetConstruction` folder contains the code used for the experimental dataset construction experiments. These experiments use the sysTEm dataset as the candidate pool. This folder also includes the Zenodo link to the corresponding experimental dataset construction results.
 
+The OutcomesAnalysis.ipynb code shows the properties of the properties outcome space for the MP18, MP21, JARVIS18, JARVIS22 and the curated sysTem experimental dataset.
 ---
 
 ## Repository structure
@@ -26,17 +27,18 @@ The `ExperimentalDatasetConstruction` folder contains the code used for the expe
 │   └── README.md
 │   └── ResultsAnalysis
 └── ExperimentalDatasetConstruction
-    ├── systemDataCuration
-    │   ├── DataCuration_sysTEmDataset.ipynb
-    │   └── sysTEm_dataset.xlsx
-    │
-    ├── ActiveLearningDatasetConstruction
-    │   ├── run_al_thermo.bash
-    │   ├── run_all_thermo.py
-    │   └── uncertainty_Thermo.py
-    │
-    └── ResultsAnalysis
-        └── ImprovementThermoElectricData.ipynb 
+│    ├── systemDataCuration
+│    │   ├── DataCuration_sysTEmDataset.ipynb
+│    │   └── sysTEm_dataset.xlsx
+│    │
+│    ├── ActiveLearningDatasetConstruction
+│    │   ├── run_al_thermo.bash
+│    │   ├── run_all_thermo.py
+│    │   └── uncertainty_Thermo.py
+│    │
+│    └── ResultsAnalysis
+│        └── ImprovementThermoElectricData.ipynb
+└──OutcomesAnalysis.ipynb
 ```
 
 
