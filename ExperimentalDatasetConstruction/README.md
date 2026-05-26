@@ -90,11 +90,13 @@ Dataset DOI:
 
 ---
 
-## 2. `ActiveLearningDatasetConstruction`
+## 2. `ActiveLearningDatasetConstruction-DEMO`
 
 The `ActiveLearningDatasetConstruction` folder contains the scripts used to run the active-learning dataset construction experiments.
 
 ### `run_al_thermo.bash`
+
+The file at the moment runs a single seed and single policy. This can be used as DEMO.
 
 This Bash script sequentially runs all random seeds and dataset construction strategies by calling `run_all_thermo.py`.
 
@@ -144,6 +146,8 @@ These policies include:
 - diversity-aware strategies
 
 ---
+
+To run all the policies modify the `run_al_thermo.bash` file to include every policy.
 
 ## 3. `ResultsAnalysis`
 
