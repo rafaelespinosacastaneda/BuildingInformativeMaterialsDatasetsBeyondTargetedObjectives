@@ -120,13 +120,16 @@ pytest --cov=src/multiobj_al   # with coverage
 
 Test markers: `slow`, `gpu`
 
-## Planned Experiments
+## Planned Experiments -DEMO
 
 Random Seeds: 0, 1, 2, 3, 4
 
 Datasets: mp21, mp18, jarvis18, jarvis22
 
 Targets: e_form, bulk_modulus, bandgap, eform_bulk_modulus, bandgap_eform, bandgap_bulkmodulus
+
+To test the code, we recommend to select one single random seed, a dataset and a single target. The NSGA-II policies are the most computational demanding. Running on a 
+ALIENWARE-18 intel core i9 64 CPUs the time ranged from 45-60 minutes for the most demanding NSGA-II policies.
 
 ## Results Analysis
 
