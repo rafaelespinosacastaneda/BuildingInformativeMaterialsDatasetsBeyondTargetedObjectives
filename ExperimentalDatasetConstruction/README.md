@@ -153,10 +153,10 @@ The `ResultsAnalysis` folder contains the notebooks used to analyze the active-l
 
 This notebook plots the improvement of each dataset construction policy relative to random sampling.
 
-Before running the notebook, make sure to update the `ROOT` path in the code so that it points to the `al` folder containing the dataset construction results.
-
+Before running the notebook, make sure to update the `ROOT` path in the code so that it points to the `al` folder containing the dataset construction results. 
 For example:
 
 ```python
 ROOT = "path/to/ExperimentalDatasetConstruction/ActiveLearningDatasetConstruction/al"
 ```
+The results to run the analysis can be found in [Zenodo experimental ](https://zenodo.org/records/20088580?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjNlYzk4YjIzLThiMDItNGU2OS05M2M1LWQ0YmQ0MTVhMzVhOSIsImRhdGEiOnt9LCJyYW5kb20iOiJmMzZhYTM2NmM0N2IzZTc2OGVlNTg0ZWExZWZiMDZhNSJ9.NA_XtJR2OTbpnNQAVUT9OFIBSURP8DtZ3Q_-b7nAsDOVprPuIxMg99WMfvawjdAfMY00IGhSnWXGtZ-jB7KbhA)
