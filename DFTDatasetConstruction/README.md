@@ -3,6 +3,7 @@ Repository for DFT datasets construction; code from Rafael Espinosa Castañeda.
 The code was originally developed and tested on Compute Canada / Alliance systems.
 
 ## Installation
+Installation time should range from 15- 25 minutes .
 
 ### Requirements
 - Python 3.11 or 3.12
