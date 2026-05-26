@@ -128,7 +128,7 @@ uncertainty_Thermo.py
 ```
 
 The script outputs CSV files containing the performance metrics (RMSE, R2 and MAE) of Random Forest and XGBoost models predicting
-on hold-out test data the different outcome properties.
+on hold-out test data the different outcome properties zT, Thermal Conductivity, Electrical Conductivity and Seebeck Coefficient.
 
 The output files are saved in a folder named:
 
