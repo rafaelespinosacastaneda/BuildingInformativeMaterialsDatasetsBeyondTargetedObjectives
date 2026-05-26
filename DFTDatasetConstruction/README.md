@@ -133,13 +133,13 @@ ALIENWARE-18 intel core i9 64 CPUs the time ranged from 45-60 minutes for the mo
 
 ## Results Analysis
 
-The `ResultsAnalysis` folder contains the notebooks used to analyze the active-learning results.
+The `ResultsAnalysis` folder contains the notebooks used to analyze the active-learning results. 
 
 ### `Improvement_DFTplotting.ipynb`
 
 ### `DFT_Plotting_NEW.ipynb`
 
-These notebook plots the improvement of each dataset construction policy relative to random sampling. Also, data coverage and RMSE plots can be made for each of the different policies withe code DFT_Plotting_NEW.ipynb.
+These notebooks plot the improvement of each dataset construction policy relative to random sampling. Also, data coverage and RMSE plots can be made for each of the different policies withe code DFT_Plotting_NEW.ipynb.
 
 Before running the notebooks, make sure to update the `ROOT` path in the code so that it points to the `al` folder containing the dataset construction results. 
 For example:
@@ -147,5 +147,5 @@ For example:
 ```python
 ROOT = "path/to/DFTDatasetConstruction/ActiveLearningDatasetConstruction/al"
 ```
-The results to run the analysis can be found in [Zenodo DFT ](https://zenodo.org/records/20316177?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjUwYjE0MTA0LWRjZjAtNDYzYi1iOTMzLTg1NGI0NWQ1ZWU2NiIsImRhdGEiOnt9LCJyYW5kb20iOiI0ZGNmYzExM2MwMGMzMmNkNzQ1NTM1ZmM2ZjI5NjYwOCJ9.h4RI0JsCqdQHHkpzafBUfPA79JnnbOZwnlZDlBFyffB6E5kQq57A7XnWVE1gWQgA45VFTt88r_3atLs7hVHtRg)
+The results to get the analysis plots of the paper can be found in [Zenodo DFT ](https://zenodo.org/records/20316177?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjUwYjE0MTA0LWRjZjAtNDYzYi1iOTMzLTg1NGI0NWQ1ZWU2NiIsImRhdGEiOnt9LCJyYW5kb20iOiI0ZGNmYzExM2MwMGMzMmNkNzQ1NTM1ZmM2ZjI5NjYwOCJ9.h4RI0JsCqdQHHkpzafBUfPA79JnnbOZwnlZDlBFyffB6E5kQq57A7XnWVE1gWQgA45VFTt88r_3atLs7hVHtRg) Or run the datasets construction code for all the policies and you can reproduce the plots of the paper with these codes.
 
