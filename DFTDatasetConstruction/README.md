@@ -125,3 +125,21 @@ Random Seeds: 0, 1, 2, 3, 4
 Datasets: mp21, mp18, jarvis18, jarvis22
 
 Targets: e_form, bulk_modulus, bandgap, eform_bulk_modulus, bandgap_eform, bandgap_bulkmodulus
+
+## Results Analysis
+
+The `ResultsAnalysis` folder contains the notebooks used to analyze the active-learning results.
+
+### `Improvement_DFTplotting.ipynb`
+
+### `DFT_Plotting_NEW.ipynb`
+
+These notebook plots the improvement of each dataset construction policy relative to random sampling. Also, data coverage plots can be obtained for each of the different policies.
+
+Before running the notebooks, make sure to update the `ROOT` path in the code so that it points to the `al` folder containing the dataset construction results. 
+For example:
+
+```python
+ROOT = "path/to/ExperimentalDatasetConstruction/ActiveLearningDatasetConstruction/al"
+```
+The results to run the analysis can be found in [Zenodo DFT ](https://zenodo.org/records/20316177?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjUwYjE0MTA0LWRjZjAtNDYzYi1iOTMzLTg1NGI0NWQ1ZWU2NiIsImRhdGEiOnt9LCJyYW5kb20iOiI0ZGNmYzExM2MwMGMzMmNkNzQ1NTM1ZmM2ZjI5NjYwOCJ9.h4RI0JsCqdQHHkpzafBUfPA79JnnbOZwnlZDlBFyffB6E5kQq57A7XnWVE1gWQgA45VFTt88r_3atLs7hVHtRg)
