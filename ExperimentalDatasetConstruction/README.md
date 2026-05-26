@@ -1,3 +1,29 @@
+# Installation 
+This repository contains the code used for the dataset construction experiments described in this project.
+
+The code was originally developed and tested on Compute Canada / Alliance systems. For public users, we provide a separate installation path using a public `requirements.txt` file.
+
+---
+
+## Installation
+
+This repository provides two installation options:
+
+1. **Public/local installation** using `requirements.txt`
+2. **Compute Canada installation** using `requirements_compute_canada.txt`
+
+Public users should use the first option.
+
+---
+
+## 1. Public/local installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+```
 
 # ExperimentalDatasetConstruction
 
