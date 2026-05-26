@@ -17,8 +17,6 @@ The OutcomesAnalysis.ipynb code shows the properties of the properties outcome s
 
 To understand how to access the DFT or experimental results data and the corresponding code to generate the results please go to the corresponding folder.
 
-Experimental dataset construction code used only CPU while DFT dataset leveraged  of GPUs. DFT dataset can be built with CPUs as  well but construction times can take longer.  Consider these limitations before running the codes.
-
  ---
 
 ## Repository structure
