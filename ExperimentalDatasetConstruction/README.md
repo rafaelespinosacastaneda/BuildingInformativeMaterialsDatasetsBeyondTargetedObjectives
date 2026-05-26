@@ -154,8 +154,10 @@ To run all the policies modify the `run_al_thermo.bash` file to include every po
 The `ResultsAnalysis` folder contains the notebooks used to analyze the active-learning results.
 
 ### `ImprovementThermoElectricData.ipynb`
+### `generalized_Plotting.ipynb`
 
-This notebook plots the improvement of each dataset construction policy relative to random sampling.
+This notebook plots the improvement of each dataset construction policy relative to random sampling. These notebook plots the improvement of each dataset construction policy relative to random sampling. Also, data coverage and RMSE plots can be made for each of the different policies with generalized plotting code.
+
 
 Before running the notebook, make sure to update the `ROOT` path in the code so that it points to the `al` folder containing the dataset construction results. 
 For example:
