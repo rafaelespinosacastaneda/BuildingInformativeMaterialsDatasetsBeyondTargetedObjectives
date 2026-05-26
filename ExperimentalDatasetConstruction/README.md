@@ -5,6 +5,7 @@ The code was originally developed and tested on Compute Canada / Alliance system
 
 ---
 # Installation
+Installation time should range from 15- 25 minutes .
 
 Clone the repository:
 
