@@ -1,7 +1,6 @@
 # BuildingInformativeMaterialsDatasetsBeyondTargetedObjectives
-[![DOI](https://zenodo.org/badge/1232149192.svg)](https://doi.org/10.5281/zenodo.20073188)
-
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20073188.svg)](https://doi.org/10.5281/zenodo.20073188)
+
 This repository contains the code needed to reproduce the results reported in the paper **“Building Informative Materials Datasets Beyond Targeted Objectives.”** https://arxiv.org/abs/2605.05104
 
 The repository is organized into two main folders:
