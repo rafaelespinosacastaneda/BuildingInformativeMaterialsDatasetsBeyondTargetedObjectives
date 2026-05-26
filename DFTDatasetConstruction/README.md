@@ -134,7 +134,7 @@ The `ResultsAnalysis` folder contains the notebooks used to analyze the active-l
 
 ### `DFT_Plotting_NEW.ipynb`
 
-These notebook plots the improvement of each dataset construction policy relative to random sampling. Also, data coverage and RMSE plots can be made for each of the different policies.
+These notebook plots the improvement of each dataset construction policy relative to random sampling. Also, data coverage and RMSE plots can be made for each of the different policies withe code DFT_Plotting_NEW.ipynb.
 
 Before running the notebooks, make sure to update the `ROOT` path in the code so that it points to the `al` folder containing the dataset construction results. 
 For example:
