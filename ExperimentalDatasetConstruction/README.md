@@ -15,13 +15,20 @@ This repository provides two installation options:
 Users with no Compute Canada access should use the first option.
 
 Create the environment and install the required packages:
-bash install_env.sh
+```bash
 
+bash install_env.sh
+```
 This script creates a Python virtual environment named test and installs the packages listed in requirements.txt.
 After installation, activate the environment with:
+```bash
 source test/bin/activate
+```
+
 On Windows Git Bash, use:
+```bash
 source test/Scripts/activate
+```
 
 ---
 
