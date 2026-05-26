@@ -127,7 +127,8 @@ It calls a dataset construction policy defined in:
 uncertainty_Thermo.py
 ```
 
-The script outputs CSV files containing the performance metrics for Random Forest and XGBoost models.
+The script outputs CSV files containing the performance metrics (RMSE, R2 and MAE) of Random Forest and XGBoost models predicting
+on hold-out test data the different outcome properties.
 
 The output files are saved in a folder named:
 
