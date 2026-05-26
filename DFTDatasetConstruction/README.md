@@ -107,7 +107,7 @@ The config supports data from local CSV/JSON files, remote URLs, and the JARVIS 
 
 ### Output
 
-Results are saved to `--outputDir`, including model prediction metrics (MAE, RMSE, R²) of bandgap-bulk modulus and formation energy, training progress, and CSV files with predictions and uncertainties.
+Results are saved to `--outputDir`, including model prediction metrics (MAE, RMSE, R²) for bandgap, bulk modulus and formation energy, training progress, and CSV files with predictions and uncertainties.
 
 ## Testing
 
