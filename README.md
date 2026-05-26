@@ -16,6 +16,8 @@ The OutcomesAnalysis.ipynb code shows the properties of the properties outcome s
 
 To understand how to access the DFT or experimental results data and the corresponding code to generate the results please go to the corresponding folder.
 
+The codes implementation make the split of datasets into the pool data to be used for dataset construction and hold out test set. If the reader is interested to visualize directly the samples used in training and test sets for each dataset, the dataset splits can be found in the [Zenodo splits ](https://zenodo.org/records/20391144?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImZlNDVhMDQ5LTZkMmEtNGY1OS1iYTE1LWVjMjJmMzI2OWJmMSIsImRhdGEiOnt9LCJyYW5kb20iOiIyM2IyMWZkOTk2NDc2NjdhMDJkZGJiZGZiYTdhOGE1ZCJ9.j4Sh_dmnF7G6sCTLOlNeSrlHISUmv5RZYxymt1WBVVIXFo7nADyPDWqzu2akCbs6X6KyXjTP_cQlnr-MkS9ilw)
+
  ---
 
 ## Repository structure
