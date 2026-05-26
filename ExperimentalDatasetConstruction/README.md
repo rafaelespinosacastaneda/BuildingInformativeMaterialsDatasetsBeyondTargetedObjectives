@@ -12,7 +12,7 @@ This repository provides two installation options:
 1. **Public/local installation** using `requirements.txt`
 2. **Compute Canada installation** using `requirements_compute_canada.txt`
 
-Public users should use the first option.
+Users with no Compute Canada access should use the first option.
 
 Create the environment and install the required packages:
 bash install_env.sh
@@ -22,6 +22,7 @@ After installation, activate the environment with:
 source test/bin/activate
 On Windows Git Bash, use:
 source test/Scripts/activate
+
 ---
 
 ## 1. Public/local installation
