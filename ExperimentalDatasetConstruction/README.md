@@ -97,7 +97,9 @@ The `ActiveLearningDatasetConstruction` folder contains the scripts used to run 
 
 ### `run_al_thermo.bash`
 
-The file at the moment runs a single seed and single policy. This can be used as DEMO.
+The file at the moment runs a single seed and single policy. This can be used as DEMO. To test the code, we recommend to select one single random seed, 
+and a single target. The NSGA-II policies are the most computational demanding. Running on a 
+ALIENWARE-18 intel core i9 64 CPUs the time ranged from 45-60 minutes for the most demanding NSGA-II policies.
 
 This Bash script sequentially runs all random seeds and dataset construction strategies by calling `run_all_thermo.py`.
 
