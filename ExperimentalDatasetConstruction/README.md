@@ -1,5 +1,5 @@
 
-This repository contains the code used for the dataset construction experiments described in this project.
+This repository contains the code used for the dataset construction with the  sysTEm curated experimental dataset .
 
 The code was originally developed and tested on Compute Canada / Alliance systems. For public users, we provide a separate installation path using a public `requirements.txt` file.
 
