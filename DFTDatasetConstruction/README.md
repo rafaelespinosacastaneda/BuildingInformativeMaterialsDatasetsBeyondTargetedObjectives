@@ -1,5 +1,6 @@
 # DFT Datasets construction
-Repository for DFT datasets construction; code from Rafael Espinosa Castañeda
+Repository for DFT datasets construction; code from Rafael Espinosa Castañeda.
+The code was originally developed and tested on Compute Canada / Alliance systems.
 
 ## Installation
 
