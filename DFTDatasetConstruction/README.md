@@ -1,5 +1,5 @@
-# Multi Objective Active Learning Study
-Repository for multiobjective AL study; code from Rafael Espinosa Castañeda
+# DFT Datasets construction
+Repository for DFT datasets construction; code from Rafael Espinosa Castañeda
 
 ## Installation
 
